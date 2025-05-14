@@ -1,6 +1,29 @@
-learn how you can get the information about phone number like the country name to which the phone number belongs to, 
-or the network service provider name of that phone number just by writing a simple Python program. 
-Python provides a module name phonenumbers for this task. This article is Python’s port of Google’s libphonenumber library.
+# 📱 Phone Number Information Lookup (Python)
 
-Installation
-Install the package phonenumbers using the below command in your command prompt
+This is a simple Python script that allows users to input an international phone number and get detailed information such as:
+
+- Validity and possibility
+- Time zone(s)
+- Country and region
+- Network carrier
+- Number type (e.g., Mobile, Fixed Line)
+
+---
+
+## 🛠 Features
+
+- ✅ Checks if the number is **valid** and **possible**
+- 🌍 Displays the **timezone(s)** associated with the number
+- 📡 Shows the **carrier** (e.g., Airtel, Vodacom)
+- 🗺 Gives the **country/region** name and ISO code
+- 📞 Detects the **type of number** (Mobile, Landline, VoIP, etc.)
+- 🚫 Handles incorrect input gracefully
+
+---
+
+## 📦 Requirements
+
+Make sure Python is installed, then install the `phonenumbers` library:
+
+```bash
+pip install phonenumbers
